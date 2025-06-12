@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Title */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #6c757d;
+  color: white;
+}
+
+.option-button:hover {
+  background-color: #495057;
+}
+
+.option-button.selected {
+  background-color: #007bff;
+}
+
+/* Upload Section */
+.upload-section {
+  padding: 15px;
+  background: #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Preview Image */
+.preview-container {
+  margin-top: 10px;
+}
+
+.preview-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+/* Upload Button */
+.upload-button {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Container */
+.result-container {
+  padding: 15px;
+  background: #e9ecef;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.result-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.color-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.color-item {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
